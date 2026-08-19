@@ -1,4 +1,4 @@
-package org.example.ministructuredoutput;
+package org.example.structured;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

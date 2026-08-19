@@ -1,4 +1,4 @@
-package org.example.ministructuredoutput;
+package org.example.structured;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
