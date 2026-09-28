@@ -1,7 +1,10 @@
 package org.example.structured;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class User {
 
+    @JsonProperty("user_name")
     private String name;
 
     private Integer age;

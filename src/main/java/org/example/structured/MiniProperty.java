@@ -2,20 +2,28 @@ package org.example.structured;
 
 public class MiniProperty {
 
-    private final String name;
+    private final String javaName;
+
+    private final String propertyName;
 
     private final MiniType type;
 
     public MiniProperty(
-            String name,
+            String javaName,
+            String propertyName,
             MiniType type
     ) {
-        this.name = name;
+        this.javaName = javaName;
+        this.propertyName = propertyName;
         this.type = type;
     }
 
-    public String getName() {
-        return name;
+    public String getJavaName() {
+        return javaName;
+    }
+
+    public String getPropertyName() {
+        return propertyName;
     }
 
     public MiniType getType() {

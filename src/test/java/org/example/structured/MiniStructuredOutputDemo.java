@@ -28,7 +28,7 @@ public class MiniStructuredOutputDemo {
 
             System.out.println(
                     "Property: " +
-                            property.getName()
+                            property.getJavaName()
             );
 
             System.out.println(

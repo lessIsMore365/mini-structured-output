@@ -27,7 +27,10 @@ public class MiniClassAnalyzer {
 
         for (Field field : fields) {
 
-            String name =
+            String javaName =
+                    field.getName();
+
+            String propertyName =
                     field.getName();
 
             Type genericType =
@@ -40,7 +43,8 @@ public class MiniClassAnalyzer {
 
             MiniProperty property =
                     new MiniProperty(
-                            name,
+                            javaName,
+                            propertyName,
                             type
                     );
 
